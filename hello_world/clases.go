@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 type Persona struct {
-	nombre string 
-	apellido string 
-	edad int 
-	email string
+	nombre   string
+	apellido string
+	edad     int
+	email    string
 }
 
 func (p *Persona) get_full_name() string {
@@ -17,7 +17,7 @@ func (p *Persona) get_email() string {
 	return p.email
 }
 
-func main(){
+func main() {
 	gus := new(Persona)
 	gus.nombre = "Gustavo"
 	gus.apellido = "Robledo"
@@ -26,4 +26,3 @@ func main(){
 	fmt.Println(gus.get_full_name())
 	fmt.Println(gus.get_email())
 }
-

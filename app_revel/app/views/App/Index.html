@@ -1,0 +1,26 @@
+{{set . "title" "Inicio"}}
+{{template "header.html" .}}
+
+<header class="jumbotron" style="background-color:#0017e9">
+  <div class="container">
+      <h1>¡Hola vatos!</h1>
+      <p>Saludos para la banda.</p>
+      </div>
+    </header>
+    
+    <div class="container">
+      <div class="text-center">
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorum tenetur voluptas quas veniam. Nulla animi 
+          corporis enim quasi velit. Sunt saepe similique, labore ex esse iste error aliquid possimus!
+        </p>
+        <a href="" class="btn btn-primary">Vamo' a calmarno'</a>
+      </div>
+      <div class="row">
+    <div class="span6">
+      {{template "flash.html" .}}
+    </div>
+  </div>
+</div>
+
+{{template "footer.html" .}}
