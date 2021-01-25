@@ -1,0 +1,37 @@
+{{set . "title" "Imagen"}}
+{{template "header.html" .}}
+<br>
+<div class="container">
+  <h1>Ver una imagen</h1>
+</div>
+    
+    <div class="container">    
+        <form action="" method="POST">
+            <div class="mb-3">
+                <label for="titulo" class="form-label">Título</label>
+                <input type="text" class="form-control" name="titulo" id="titulo">
+            </div>
+            
+            <div class="mb-3">
+                <label for="autor" class="form-label">Autor</label>
+                <input type="text" class="form-control" name="autor" id="autor">
+            </div>
+
+            <div class="mb-3">
+                <label for="pais" class="form-label">País</label>
+                <input type="text" class="form-control" name="pais" id="pais">
+            </div>
+
+            <div class="mb-3">
+                <label for="agno" class="form-label">Año</label>
+                <input type="text" class="form-control" name="agno" id="agno">
+            </div>
+
+            <div class="text-center">
+                <input class="btn btn-primary" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+
+{{template "footer.html" .}}

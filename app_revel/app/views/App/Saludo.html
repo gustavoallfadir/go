@@ -1,0 +1,27 @@
+{{set . "title" "Saludo"}}
+{{template "header.html" .}}
+<br>
+<div class="container text-center">
+  <h1>Konichiwa!</h1>
+  <h2>Bonjour!</h2>
+  <h3>Nǐn hǎo!</h3>
+  <h4>Ciao!</h4>
+  <h5>Hallo!</h5>
+  <h6>Olá</h6>
+</div>
+
+<div class="container">
+    <div class="text-center">
+        <p class="lead">
+          Estos son ejemplos de saludo en varios idiomas
+        </p>
+        <a href="/" class="btn btn-primary">Vamo' al inicio</a>
+      </div>
+      <div class="row">
+    <div class="span6">
+      {{template "flash.html" .}}
+    </div>
+  </div>
+</div>
+
+{{template "footer.html" .}}

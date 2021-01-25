@@ -1,0 +1,62 @@
+{{set . "title" "Tabla"}}
+{{template "header.html" .}}
+<br>
+<div class="container">
+  <h1>Ejemplo de tabla</h1>
+</div>
+    
+<div class="container table-responsive">    
+    <table class="table table-hover">
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>País</th>
+            <th>Año</th>
+        </tr>
+        
+        <tr>
+            <td>El principito</td>
+            <td>Antoine de Sain-Exupéry</td>
+            <td>Francia</td>
+            <td>1943</td>
+        </tr>
+
+        <tr>
+            <td>Hamlet</td>
+            <td>William Shakespeare</td>
+            <td>Inglaterra</td>
+            <td>1603</td>
+        </tr>
+
+        <tr>
+            <td>Otelo</td>
+            <td>William Shakespear</td>
+            <td>Inglaterra</td>
+            <td>1622</td>
+        </tr>
+
+        <tr>
+            <td>Cien años de soledad</td>
+            <td>Gabriel García Márquez</td>
+            <td>Argentina</td>
+            <td>1967</td>
+        </tr>
+        
+        <tr>
+            <td>Los miserables</td>
+            <td>Victor Hugo</td>
+            <td>Francia</td>
+            <td>1869</td>
+        </tr>
+
+        <tr>
+            <td>Don Quijote de la Mancha</td>
+            <td>Miguel de Cervantes Saavedra</td>
+            <td>España</td>
+            <td>1605 y 1615</td>
+        </tr>
+    </table>    
+</div>
+
+
+{{template "footer.html" .}}
