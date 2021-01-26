@@ -5,16 +5,12 @@ package main
 import "fmt"
 
 func resultado(max int) int {
-	var multiplos []int
+	var suma = 0;
 	for i := 0; i < max; i++ {
 		if i % 3 == 0 || i % 5 == 0 {
-			multiplos = append(multiplos, i);
+			suma += i;
 		}
 	}	
-	var suma = 0;
-	for i := range multiplos {
-		suma += multiplos[i];
-	}
 	return suma;
 }
 
