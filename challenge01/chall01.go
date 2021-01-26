@@ -1,5 +1,5 @@
-//Crear una función que retorne la suma de los valores que sean multiplos de 3
-//o de 5 y que sean menores que un número dado.
+/* Crear una función que retorne la suma de los valores que sean 
+multiplos de 3 o de 5 y que sean menores que un número dado. */
 package main
 
 import "fmt"
